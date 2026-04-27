@@ -43,7 +43,29 @@
         background-color: rgb(255, 255, 255);
       }
       .filter-image {
-    </style>
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+   
+    .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+        </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -111,5 +133,8 @@
         <li>Item 4</li>
       </ul>
 <img src="./images/siili.jpg" alt="Siilin kuva" class="filter-image">
+<blockquote class="quote">
+        Tässä on siiliruno.
+      </blockquote>
 </body>
 </html>
