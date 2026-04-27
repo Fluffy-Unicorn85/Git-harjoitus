@@ -1,1 +1,1 @@
-Tämä on Verkkosivujen kehittäminen WS01 työpajakansio
+Tämä on Verkkosivujen kehittäminen WS02 työpajakansio
