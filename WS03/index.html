@@ -65,6 +65,28 @@
         top: 0;
         color: lightgray;
       }
+      .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
         </style>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -122,7 +144,7 @@
     <link rel="stylesheet" href="styles.css">
 <div class="content-box">
   <h3>Sample Heading</h3>
-  <p>This is a sample paragraph inside a div element.</p>
+  <p>This is a sample paragraph inside the content box.</p>
 </div>
 <button class="transition-button">Rullaayli</button>
 <div class="animation-box">Hedgehog</div>
